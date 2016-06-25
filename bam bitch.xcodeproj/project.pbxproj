@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		926541DD1D1E1E1700949D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926541DC1D1E1E1700949D4F /* AppDelegate.swift */; };
+		926541DF1D1E1E1700949D4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926541DE1D1E1E1700949D4F /* ViewController.swift */; };
+		926541E21D1E1E1700949D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926541E01D1E1E1700949D4F /* Main.storyboard */; };
+		926541E41D1E1E1700949D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926541E31D1E1E1700949D4F /* Assets.xcassets */; };
+		926541E71D1E1E1700949D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926541E51D1E1E1700949D4F /* LaunchScreen.storyboard */; };
+		926541F21D1E1E1700949D4F /* bam_bitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926541F11D1E1E1700949D4F /* bam_bitchTests.swift */; };
+		926541FD1D1E1E1700949D4F /* bam_bitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926541FC1D1E1E1700949D4F /* bam_bitchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		926541EE1D1E1E1700949D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 926541D11D1E1E1700949D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 926541D81D1E1E1700949D4F;
+			remoteInfo = "bam bitch";
+		};
+		926541F91D1E1E1700949D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 926541D11D1E1E1700949D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 926541D81D1E1E1700949D4F;
+			remoteInfo = "bam bitch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		926541D91D1E1E1700949D4F /* bam bitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bam bitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		926541DC1D1E1E1700949D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		926541DE1D1E1E1700949D4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		926541E11D1E1E1700949D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		926541E31D1E1E1700949D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		926541E61D1E1E1700949D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		926541E81D1E1E1700949D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926541ED1D1E1E1700949D4F /* bam bitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bam bitchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		926541F11D1E1E1700949D4F /* bam_bitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bam_bitchTests.swift; sourceTree = "<group>"; };
+		926541F31D1E1E1700949D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926541F81D1E1E1700949D4F /* bam bitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bam bitchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		926541FC1D1E1E1700949D4F /* bam_bitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bam_bitchUITests.swift; sourceTree = "<group>"; };
+		926541FE1D1E1E1700949D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		926541D61D1E1E1700949D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926541EA1D1E1E1700949D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926541F51D1E1E1700949D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		926541D01D1E1E1700949D4F = {
+			isa = PBXGroup;
+			children = (
+				926541DB1D1E1E1700949D4F /* bam bitch */,
+				926541F01D1E1E1700949D4F /* bam bitchTests */,
+				926541FB1D1E1E1700949D4F /* bam bitchUITests */,
+				926541DA1D1E1E1700949D4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		926541DA1D1E1E1700949D4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				926541D91D1E1E1700949D4F /* bam bitch.app */,
+				926541ED1D1E1E1700949D4F /* bam bitchTests.xctest */,
+				926541F81D1E1E1700949D4F /* bam bitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		926541DB1D1E1E1700949D4F /* bam bitch */ = {
+			isa = PBXGroup;
+			children = (
+				926541DC1D1E1E1700949D4F /* AppDelegate.swift */,
+				926541DE1D1E1E1700949D4F /* ViewController.swift */,
+				926541E01D1E1E1700949D4F /* Main.storyboard */,
+				926541E31D1E1E1700949D4F /* Assets.xcassets */,
+				926541E51D1E1E1700949D4F /* LaunchScreen.storyboard */,
+				926541E81D1E1E1700949D4F /* Info.plist */,
+			);
+			path = "bam bitch";
+			sourceTree = "<group>";
+		};
+		926541F01D1E1E1700949D4F /* bam bitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				926541F11D1E1E1700949D4F /* bam_bitchTests.swift */,
+				926541F31D1E1E1700949D4F /* Info.plist */,
+			);
+			path = "bam bitchTests";
+			sourceTree = "<group>";
+		};
+		926541FB1D1E1E1700949D4F /* bam bitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				926541FC1D1E1E1700949D4F /* bam_bitchUITests.swift */,
+				926541FE1D1E1E1700949D4F /* Info.plist */,
+			);
+			path = "bam bitchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		926541D81D1E1E1700949D4F /* bam bitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926542011D1E1E1700949D4F /* Build configuration list for PBXNativeTarget "bam bitch" */;
+			buildPhases = (
+				926541D51D1E1E1700949D4F /* Sources */,
+				926541D61D1E1E1700949D4F /* Frameworks */,
+				926541D71D1E1E1700949D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bam bitch";
+			productName = "bam bitch";
+			productReference = 926541D91D1E1E1700949D4F /* bam bitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		926541EC1D1E1E1700949D4F /* bam bitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926542041D1E1E1700949D4F /* Build configuration list for PBXNativeTarget "bam bitchTests" */;
+			buildPhases = (
+				926541E91D1E1E1700949D4F /* Sources */,
+				926541EA1D1E1E1700949D4F /* Frameworks */,
+				926541EB1D1E1E1700949D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				926541EF1D1E1E1700949D4F /* PBXTargetDependency */,
+			);
+			name = "bam bitchTests";
+			productName = "bam bitchTests";
+			productReference = 926541ED1D1E1E1700949D4F /* bam bitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		926541F71D1E1E1700949D4F /* bam bitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926542071D1E1E1700949D4F /* Build configuration list for PBXNativeTarget "bam bitchUITests" */;
+			buildPhases = (
+				926541F41D1E1E1700949D4F /* Sources */,
+				926541F51D1E1E1700949D4F /* Frameworks */,
+				926541F61D1E1E1700949D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				926541FA1D1E1E1700949D4F /* PBXTargetDependency */,
+			);
+			name = "bam bitchUITests";
+			productName = "bam bitchUITests";
+			productReference = 926541F81D1E1E1700949D4F /* bam bitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		926541D11D1E1E1700949D4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Zachry Stephenson";
+				TargetAttributes = {
+					926541D81D1E1E1700949D4F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					926541EC1D1E1E1700949D4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 926541D81D1E1E1700949D4F;
+					};
+					926541F71D1E1E1700949D4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 926541D81D1E1E1700949D4F;
+					};
+				};
+			};
+			buildConfigurationList = 926541D41D1E1E1700949D4F /* Build configuration list for PBXProject "bam bitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 926541D01D1E1E1700949D4F;
+			productRefGroup = 926541DA1D1E1E1700949D4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				926541D81D1E1E1700949D4F /* bam bitch */,
+				926541EC1D1E1E1700949D4F /* bam bitchTests */,
+				926541F71D1E1E1700949D4F /* bam bitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		926541D71D1E1E1700949D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926541E71D1E1E1700949D4F /* LaunchScreen.storyboard in Resources */,
+				926541E41D1E1E1700949D4F /* Assets.xcassets in Resources */,
+				926541E21D1E1E1700949D4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926541EB1D1E1E1700949D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926541F61D1E1E1700949D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		926541D51D1E1E1700949D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926541DF1D1E1E1700949D4F /* ViewController.swift in Sources */,
+				926541DD1D1E1E1700949D4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926541E91D1E1E1700949D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926541F21D1E1E1700949D4F /* bam_bitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926541F41D1E1E1700949D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926541FD1D1E1E1700949D4F /* bam_bitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		926541EF1D1E1E1700949D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 926541D81D1E1E1700949D4F /* bam bitch */;
+			targetProxy = 926541EE1D1E1E1700949D4F /* PBXContainerItemProxy */;
+		};
+		926541FA1D1E1E1700949D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 926541D81D1E1E1700949D4F /* bam bitch */;
+			targetProxy = 926541F91D1E1E1700949D4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		926541E01D1E1E1700949D4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926541E11D1E1E1700949D4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		926541E51D1E1E1700949D4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926541E61D1E1E1700949D4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		926541FF1D1E1E1700949D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		926542001D1E1E1700949D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		926542021D1E1E1700949D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "bam bitch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zachrystephenson.bam-bitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		926542031D1E1E1700949D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "bam bitch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zachrystephenson.bam-bitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		926542051D1E1E1700949D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "bam bitchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zachrystephenson.bam-bitchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bam bitch.app/bam bitch";
+			};
+			name = Debug;
+		};
+		926542061D1E1E1700949D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "bam bitchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zachrystephenson.bam-bitchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bam bitch.app/bam bitch";
+			};
+			name = Release;
+		};
+		926542081D1E1E1700949D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "bam bitchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zachrystephenson.bam-bitchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "bam bitch";
+			};
+			name = Debug;
+		};
+		926542091D1E1E1700949D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "bam bitchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zachrystephenson.bam-bitchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "bam bitch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		926541D41D1E1E1700949D4F /* Build configuration list for PBXProject "bam bitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926541FF1D1E1E1700949D4F /* Debug */,
+				926542001D1E1E1700949D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926542011D1E1E1700949D4F /* Build configuration list for PBXNativeTarget "bam bitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926542021D1E1E1700949D4F /* Debug */,
+				926542031D1E1E1700949D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		926542041D1E1E1700949D4F /* Build configuration list for PBXNativeTarget "bam bitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926542051D1E1E1700949D4F /* Debug */,
+				926542061D1E1E1700949D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		926542071D1E1E1700949D4F /* Build configuration list for PBXNativeTarget "bam bitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926542081D1E1E1700949D4F /* Debug */,
+				926542091D1E1E1700949D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 926541D11D1E1E1700949D4F /* Project object */;
+}
